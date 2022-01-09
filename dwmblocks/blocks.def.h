@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/	                   /*Update Interval*/     /*Update Signal*/
-	{"Battery:", "acpi | awk -F',' '{print $2}'",	   45,	                   0},
+	{"", "acpi | awk -F',' '{print $2}'",	   45,	                   0},
 
 	{"", "date -u '+%H:%M %d/%b/%y'",            30,                     0},
 };
