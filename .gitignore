@@ -1,0 +1,10 @@
+# config.h files #
+*/config.h
+dwmblocks/blocks.h
+
+# Compiled executables #
+dmenu/dmenu
+dwm/dwm
+dwmblocks/dwmblocks
+slock/slock
+st/st
