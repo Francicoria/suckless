@@ -4,6 +4,8 @@ static const Block blocks[] = {
 	{"", "acpi | awk -F',' '{print $2}'",	   45,	                   0},
 
 	{"", "date -u '+%H:%M %d/%b/%y'",            30,                     0},
+
+	{"", "tiramisu",            30,                     0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.

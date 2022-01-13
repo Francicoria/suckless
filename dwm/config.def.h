@@ -12,7 +12,7 @@ enum showtab_modes { showtab_never, showtab_auto, showtab_nmodes, showtab_always
 static const int showtab			= showtab_auto;        /* Default tab bar show mode */
 static const int toptab				= False;               /* False means bottom tab bar */
 
-static const char *fonts[]          = { "JetBrainsMono-Regular:size=10","Font Awesome 5 Free:size=15" };
+static const char *fonts[]          = { "JetBrainsMono-Regular:size=10" };
 static const char dmenufont[]       = "JetBrainsMono-Regular:size=10";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#808080";
@@ -26,7 +26,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "·", "··", "···", "····" };
+static const char *tags[] = { "~", "~", "~", "~" };
 
 static const Rule rules[] = {
 	/* xprop(1):
