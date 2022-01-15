@@ -6,15 +6,15 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static const char *fonts[] = {
 	"JetBrainsMono-Regular:size=10"
 };
-static const char *prompt      = "Search: ";      /* -p  option; prompt to the left of input field */
+static const char *prompt      = "Search:";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	                        /*     fg          bg      */
-	[SchemeNorm] =            { "#808080", "#000000" },
-	[SchemeSel] =             { "#ffffff", "#333333" },
-	[SchemeSelHighlight] =    { "#000000", "#ffffff" },
-	[SchemeNormHighlight] =   { "#000000", "#ffffff" },
-	[SchemeOut] =             { "#000000", "#00ffff" },
-	[SchemeOutHighlight] =    { "#ffc978", "#00ffff" },
+                                /*     fg          bg      */
+        [SchemeNorm] =            { "#808080", "#000000" },
+        [SchemeSel] =             { "#ffffff", "#333333" },
+        [SchemeSelHighlight] =    { "#000000", "#ffffff" },
+        [SchemeNormHighlight] =   { "#000000", "#ffffff" },
+        [SchemeOut] =             { "#000000", "#00ffff" },
+        [SchemeOutHighlight] =    { "#ffc978", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
