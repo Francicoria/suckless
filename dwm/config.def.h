@@ -20,13 +20,13 @@ static const char col_gray3[]       = "#CBCBCB";
 static const char col_gray4[]       = "#ffffff";
 static const char col_cyan[]        = "#593366";
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+        /*               fg         bg         border   */
+        [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+        [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
 
 /* tagging */
-static const char *tags[] = { "~", "~", "~", "~" };
+static const char *tags[] = { "~", "~", "~", "~", "~" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -34,10 +34,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "mupdf",     NULL,       NULL,       0,            1,           -1 },
-//	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
-}; 
-
+//	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "mupdf-gl",  NULL,       NULL,       1 << 8,       0,           -1 },
+};
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
