@@ -1,3 +1,1 @@
-# suckless
-These are my builds of suckless software, feel free to use them as you'd like!
-Visit suckless website<https://suckless.org> to learn more
+### Switched to Gitlab! Here's the new repo: [gitlab.com/francicoria/dots](https://gitlab.com/francicoria/dots)
